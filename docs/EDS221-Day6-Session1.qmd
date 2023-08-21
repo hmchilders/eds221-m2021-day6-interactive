@@ -1,0 +1,25 @@
+---
+title: "Warmup Activity"
+format: html
+editor: visual
+---
+
+## Warm-up Activity
+
+```{r}
+animals <- c("brown bear", "red bird", "yellow duck", "blue horse")
+
+# for (i in seq(from = 1, to = 3)){
+  for (i in 1:(length(animals)-1)) {
+print(paste0(animals[i], ", ", animals[i], ", what do you see? I see a ", animals[i+1], " looking at me."))
+}
+```
+
+## Interactive Session Pt1
+
+```{r}
+library(tidyverse)
+library(here)
+library(janitor)
+
+```
